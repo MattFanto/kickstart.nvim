@@ -935,6 +935,7 @@ require('lazy').setup({
   -- { import = 'custom.plugins' },
   require 'custom.plugins.lazygit',
   require 'custom.plugins.neogit',
+  require 'custom.plugins.toggleterm',
 }, {
   ui = {
     -- If you are using a Nerd Font: set icons to an empty table which will use the
