@@ -671,6 +671,8 @@ require('lazy').setup({
     'stevearc/conform.nvim',
     event = { 'BufWritePre' },
     cmd = { 'ConformInfo' },
+    -- temporarily
+    enabled = false,
     keys = {
       {
         '<leader>f',
@@ -936,6 +938,7 @@ require('lazy').setup({
   require 'custom.plugins.lazygit',
   require 'custom.plugins.neogit',
   require 'custom.plugins.toggleterm',
+  require 'custom.plugins.autosession',
 }, {
   ui = {
     -- If you are using a Nerd Font: set icons to an empty table which will use the
