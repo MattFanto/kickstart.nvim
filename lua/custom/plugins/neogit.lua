@@ -8,5 +8,8 @@ return {
     'nvim-telescope/telescope.nvim', -- optional
     'ibhagwan/fzf-lua', -- optional
   },
+  keys = {
+    { '<leader>g', function() require('neogit').open() end, desc = 'Neogit' },
+  },
   config = true,
 }

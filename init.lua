@@ -253,6 +253,7 @@ require('lazy').setup({
         topdelete = { text = '‾' },
         changedelete = { text = '~' },
       },
+      current_line_blame = true, -- who last touched this line
     },
   },
 
@@ -939,6 +940,7 @@ require('lazy').setup({
   require 'custom.plugins.neogit',
   require 'custom.plugins.toggleterm',
   require 'custom.plugins.autosession',
+  require 'custom.plugins.oil',
 }, {
   ui = {
     -- If you are using a Nerd Font: set icons to an empty table which will use the
