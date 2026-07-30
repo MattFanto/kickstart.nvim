@@ -949,6 +949,7 @@ require('lazy').setup({
   require 'custom.plugins.toggleterm',
   require 'custom.plugins.autosession',
   require 'custom.plugins.oil',
+  require 'custom.plugins.yazi',
 }, {
   ui = {
     -- If you are using a Nerd Font: set icons to an empty table which will use the
